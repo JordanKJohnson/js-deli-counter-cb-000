@@ -3,7 +3,9 @@ function takeANumber(list,person){
 }
 
 function nowServing(list){
-  return "Currently serving "+list[0]+".";
+  var listCopy = list;
+  list.shift();
+  return "Currently serving "+listCopy[0]+".";
 }
 
 function currentLine(list){
