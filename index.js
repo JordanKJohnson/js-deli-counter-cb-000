@@ -5,7 +5,12 @@ function takeANumber(list,person){
 function nowServing(list){
   var listCopy = list;
   list.shift();
-  return "Currently serving "+listCopy[0]+".";
+  if (){
+    return "Currently serving "+listCopy[0]+".";
+  }
+  else{
+    return "There is nobody waiting to be served!";"
+  }
 }
 
 function currentLine(list){
