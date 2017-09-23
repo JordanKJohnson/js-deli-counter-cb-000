@@ -7,7 +7,7 @@ function nowServing(list){
   var listCopy = list;
   //list.shift();
   if (list.length > 0){
-    return "Currently serving "+listCopy[list.length]+".";
+    return "Currently serving "+listCopy[list.length-1]+".";
   }
   else{
     return "There is nobody waiting to be served!";
