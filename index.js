@@ -3,7 +3,7 @@ function takeANumber(list,person){
 }
 
 function nowServing(list){
-  return "Now serving "+list[0]+".";
+  return "Currently serving "+list[0]+".";
 }
 
 function currentLine(list){
