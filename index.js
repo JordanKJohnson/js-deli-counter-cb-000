@@ -1,5 +1,6 @@
 function takeANumber(list,person){
   list.push(person);
+  return "Welcome "+ +". You are now number "++" in line.";
 }
 
 function nowServing(list){
