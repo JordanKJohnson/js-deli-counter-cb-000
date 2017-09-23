@@ -9,7 +9,7 @@ function nowServing(list){
     return "Currently serving "+listCopy[0]+".";
   }
   else{
-    return "There is nobody waiting to be served!";"
+    return "There is nobody waiting to be served!";
   }
 }
 
