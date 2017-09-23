@@ -16,7 +16,7 @@ function nowServing(list){
 
 function currentLine(list){
   for (var i = 0; i < list.length; i++){
-    list[i] = (i+1) + ". " + list[i];
+    list[i] = " "+(i+1) + ". " + list[i];
   }
   if (list.length == 0) {
     return "The line is currently empty.";
