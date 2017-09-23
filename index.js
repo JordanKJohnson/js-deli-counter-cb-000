@@ -5,7 +5,7 @@ function takeANumber(list,person){
 function nowServing(list){
   var listCopy = list;
   list.shift();
-  if (){
+  if (list.length > 0){
     return "Currently serving "+listCopy[0]+".";
   }
   else{
